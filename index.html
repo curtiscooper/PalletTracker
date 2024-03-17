@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title> Pallet Tracker </title>
+      <link rel="stylesheet" href="./css/style.css">
+      <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> -->
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>      
+      <style>
+        body  {
+            /* TODO: This doesn't work in style.css ????? */
+          background-image: url("img/warehouse-interior-with-shelves-pallets-forklift-vector-27289915.jpg");
+        }
+        </style>
+   </head>
+
+   <body>
+        <header class="cd__intro">
+            <div class="cd__action">
+               <h1>
+                   <span>Pallet</span>
+                   <span>Movement</span>
+                 </h1>
+            </div>
+         </header>
+
+
+        <nav id="navbar" class="">
+        <div class="nav-wrapper">
+            <!-- Navbar Logo -->
+            <div class="logo">
+            <a href="index.html"><img class="logoimgmain" src="img/warehouse-computer-icons-self-storage-pallet-racking-logistics-warehouse.jpg" alt="Real Action Games Home"></a>
+            </div>
+
+            <!-- Navbar Links -->
+            <ul id="menu">
+            <li><a href="index.html">Pallet Movement</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="managers.html">Managers</a></li>
+            </ul>
+        </div>
+        </nav>
+
+
+        <!-- Menu Icon -->
+        <div class="menuIcon">
+        <span class="icon icon-barsf"></span>
+        <span class="icon icon-bars overlay"></span>
+        </div>
+
+
+        <div class="overlay-menu">
+        <ul id="ol_menu">
+            <li><a href="index.html">Pallet Movement</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="managers.html">Managers</a></li>
+            </ul>
+        </div>
+
+        <article class="cd__main">
+            <div class="cd__action">
+                <form>
+                    <!-- 2 column grid layout with text inputs for the first and last names -->
+                    <div class="row mb-4">
+                        <div class="col">
+                            <div data-mdb-input-init class="form-outline">
+                            <input type="text" id="form6Example1" class="form-control" />
+                            <label class="form-label" for="form6Example1">Pallet Label</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div data-mdb-input-init class="form-outline">
+                            <input type="text" id="form6Example2" class="form-control" />
+                            <label class="form-label" for="form6Example2">Item Number</label>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Text input -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="text" id="form6Example3" class="form-control" />
+                    <label class="form-label" for="form6Example3">Quantity</label>
+                    </div>
+                
+                    <!-- Text input -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="text" id="form6Example4" class="form-control" />
+                    <label class="form-label" for="form6Example4">Pick Bin</label>
+                    </div>
+                
+
+                    <!-- Text input -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="email" id="form6Example5" class="form-control" />
+                    <label class="form-label" for="form6Example5">Overstock Bin</label>
+                    </div>
+
+                    <select name="Overstock Bin">
+                        <option value="A">A101</option>
+                        <option value="B">B105</option>
+                        <option value="-">NEW</option>
+                      </select>
+                      
+                    <!-- Number input -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="number" id="form6Example6" class="form-control" />
+                    <label class="form-label" for="form6Example6">Current Location</label>
+                    </div>
+                
+                    <!-- Message input -->
+                    <!-- <div data-mdb-input-init class="form-outline mb-4">
+                    <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+                    <label class="form-label" for="form6Example7">Additional information</label>
+                    </div> -->
+                
+                    <!-- Checkbox -->
+                    <!-- <div class="form-check d-flex justify-content-center mb-4">
+                    <input
+                        class="form-check-input me-2"
+                        type="checkbox"
+                        value=""
+                        id="form6Example8"
+                        checked
+                    />
+                    <label class="form-check-label" for="form6Example8"> Create an account? </label>
+                    </div> -->
+                
+                    <!-- Submit button -->
+                    <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Receive</button>
+                    <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Putaway</button>
+                    <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Letdown</button>                    
+                    <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Lookup</button>                    
+                </form>
+
+
+                <!-- <div class="left">
+                    <br><br>
+                    <label for="fname">Pallet Label:</label>
+                    <input type="text" id="palletLabel" name="palletLabel"><br><br>
+                    <a href="https://py.pl/S3tKP" title="Order One" class="cd__btn back">Order One</a>
+                </div> -->
+
+                <!-- <div class="right">
+                </div> -->
+ 
+            </div>
+        </article>
+          
+        <!-- <article class="cd__main">
+            <div class="cd__action">
+
+                <div class="left"> -->
+                    <!-- <br><br>
+                    <label for="fname">Pallet Label:</label>
+                    <input type="text" id="palletLabel" name="palletLabel"><br><br>
+                    <a href="https://py.pl/S3tKP" title="Order One" class="cd__btn back">Order One</a> -->
+                <!-- </div>
+
+                <div class="right"> -->
+                    <!-- <img src="10024-whitebg.jpg" class="mainimg" alt="RASC Realism Package"> -->
+
+                <!-- </div>
+            </div>
+        </article> -->
+
+
+
+
+
+
+        <script src="./js/script.js"></script>
+
+   </body>
+</html>
